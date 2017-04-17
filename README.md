@@ -24,7 +24,7 @@ self.textField.numericFormatter = [AKNumericFormatter formatterWithMask:@"+*(***
 ```
 Yep, it's easy and no subclassing.
 
-###iOS 5 Compatibility
+### iOS 5 Compatibility
 
 It's working on iOS 5, but you should help it a little bit. Call `alertDeleteBackwards` method
 in your `UITextField` delegate's `shouldChangeCharactersInRange:replacementString:` method
